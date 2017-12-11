@@ -1,3 +1,86 @@
-.Card_Header{
+.Card-header{
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    font-size: 14px;
+    font-weight: 100;    
+}
 
+.user-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.dev-profile-img{
+    border-radius: 50%;
+    height: 3.4rem;
+    width: 3.4rem;
+    margin-right: .5rem;
+}
+
+.user-text-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.text-author-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 4rem;
+    position: relative;
+    bottom: 1rem;
+    line-height: 1.3rem;
+}
+
+.user{
+    margin-right: 5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.user:hover{
+    color: #14BD7B;
+    text-decoration: underline; 
+}
+
+.twitter-handle{
+    margin-right: 5px;    
+    color: #657786;
+}
+
+.time:before{
+    margin-right: 5px;    
+    content: "\00b7";
+}
+
+.time:before:hover{
+    color: #657786;
+    text-decoration: none;
+}
+
+.time{
+    cursor: pointer;
+    color: #657786;
+    margin-right: 17.5rem;    
+}
+
+.time:hover{
+    color: #14BD7B;
+    text-decoration: underline;
+}
+
+.fa-angle-down{
+    color: #657786;
+    font-size: 1.5rem !important; 
+}
+
+.author{
+    color: #14BD7B;
+    cursor: pointer;
+}
+
+.author:hover{
+    text-decoration: underline;
 }

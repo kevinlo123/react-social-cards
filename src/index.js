@@ -8,7 +8,17 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
     <div>
-        <div>
+        <div className="container">
+            <CardHeader user="The Practical Dev" 
+                        twitter="@ThePracticalDev"
+                        time="22m"
+                        author="{author: "
+                        tweetText="How I Git"/>
+            <CardContent headingTwoText="How I Git"
+                         cardDescription="git for fun and profit!"/>
+            <CardFooter />
+        </div>
+        <div className="container">
             <CardHeader user="The Practical Dev" 
                         twitter="@ThePracticalDev"
                         time="22m"
@@ -17,7 +27,29 @@ ReactDOM.render(
             <CardContent headingTwoText="How I Git"
                          cardDescription="git for fun and profit!"/>
             <CardFooter />
-        </div>  
+        </div> 
+        <div className="container">
+            <CardHeader user="The Practical Dev" 
+                        twitter="@ThePracticalDev"
+                        time="22m"
+                        author="{author: @amention}"
+                        tweetText="How I Git"/>
+            <CardContent headingTwoText="How I Git"
+                         cardDescription="git for fun and profit!"/>
+            <CardFooter />
+        </div> 
+        <div className="container">
+            <CardHeader user="The Practical Dev" 
+                        twitter="@ThePracticalDev"
+                        time="22m"
+                        author="{author: @amention}"
+                        tweetText="How I Git"/>
+            <CardContent headingTwoText="How I Git"
+                         cardDescription="git for fun and profit!"/>
+            <CardFooter />
+        </div>   
     </div>
 , document.getElementById('root'));
 registerServiceWorker();
+
+//social card should be a re-usable component 
