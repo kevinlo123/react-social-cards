@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './css/Card-header.css';
-import dev from './images/dev.jpg'
 
 class CardHeader extends Component {
     render() {
         return (
             <div className="Card-header">
                 <div className="user-container">
-                    <img className="dev-profile-img" src={dev} alt="dev_profile"/>
+                    <img className="dev-profile-img" src={this.props.userImage} alt="dev_profile"/>
                     <div className="user-text-container">
                         <span className="user">{this.props.user}</span>
                         <div className="twitter-handle-time-container">

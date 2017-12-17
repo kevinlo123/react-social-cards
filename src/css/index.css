@@ -12,7 +12,7 @@ body {
 }
 
 .container{
-    width: 46%;
+    max-width: 37rem;
     margin: 0 auto;
     padding: 9px 12px;
     background: white;
