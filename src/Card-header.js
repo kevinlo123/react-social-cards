@@ -10,8 +10,10 @@ class CardHeader extends Component {
                     <img className="dev-profile-img" src={dev} alt="dev_profile"/>
                     <div className="user-text-container">
                         <span className="user">{this.props.user}</span>
-                        <span className="twitter-handle">{this.props.twitter}</span>
-                        <small className="time">{this.props.time}</small>
+                        <div className="twitter-handle-time-container">
+                            <span className="twitter-handle">{this.props.twitter}</span>
+                            <small className="time">{this.props.time}</small>
+                        </div>
                         <i className="fa fa-angle-down" aria-hidden="true"></i>
                     </div>
                 </div>

@@ -1,4 +1,34 @@
-.conent-container{
+.content-container{
     border: 1px solid #E1E8ED;
-    border-radius: 3px;
+    border-radius: 6px;
+    width: 90%;
+    position: relative;
+    left: 4rem;
+    margin: .5rem 0;
+}
+
+.how-i-git{
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.post-description-container{
+    padding: .75rem;
+    line-height: 1.8rem;
+}
+
+.description-heading{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.description-text{
+    margin: 0;
+    font-weight: 100;
+}
+
+.destination{
+    color: #8899A6;
+    font-weight: 100;
+
 }

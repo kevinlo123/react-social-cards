@@ -47,7 +47,7 @@ ReactDOM.render(
             <CardContent headingTwoText="How I Git"
                          cardDescription="git for fun and profit!"/>
             <CardFooter />
-        </div>   
+        </div>  
     </div>
 , document.getElementById('root'));
 registerServiceWorker();

@@ -22,6 +22,8 @@
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .text-author-container{
@@ -31,7 +33,7 @@
     margin-left: 4rem;
     position: relative;
     bottom: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .user{
@@ -43,6 +45,13 @@
 .user:hover{
     color: #14BD7B;
     text-decoration: underline; 
+}
+
+.twitter-handle-time-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 22%;
 }
 
 .twitter-handle{
@@ -63,7 +72,6 @@
 .time{
     cursor: pointer;
     color: #657786;
-    margin-right: 17.5rem;    
 }
 
 .time:hover{
@@ -76,6 +84,11 @@
     font-size: 1.5rem !important; 
 }
 
+.fa-angle-down:hover{
+    color: #14BD7B;
+    cursor: pointer;
+}
+
 .author{
     color: #14BD7B;
     cursor: pointer;
@@ -83,4 +96,34 @@
 
 .author:hover{
     text-decoration: underline;
+}
+
+@media only screen and (max-width : 620px) {
+    .twitter-handle-time-container{
+        right: 18%;
+    }
+
+    .content-container{
+        width: 85% !important;
+    }
+}
+
+@media only screen and (max-width : 555px) {
+    .twitter-handle-time-container{
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width : 520px) {
+    .twitter-handle-time-container{
+        right: 0;
+    }
+
+    .user{
+        margin-right: 0;
+    }
+    
+    .content-container{
+        width: 80% !important;
+    }
 }

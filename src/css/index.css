@@ -12,9 +12,60 @@ body {
 }
 
 .container{
-    width: 40rem;
+    width: 46%;
     margin: 0 auto;
     padding: 9px 12px;
     background: white;
     border-bottom: 1px solid #e6ecf0;    
+}
+
+.container:hover{
+    background: #f5f8fa;
+}
+
+@media only screen and (max-width : 1200px) {
+    .container{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+    .container{
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .container{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width : 920px) {
+    .container{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width : 855px) {
+    .container{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 790px) {
+    .container{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+    .container{
+        width: 80%;
+    }
+}
+@media only screen and (max-width : 700px) {
+    .container{
+        width: 90%;
+    }
 }

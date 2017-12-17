@@ -1,0 +1,29 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: .5rem 4rem 0;
+}
+
+.retweet-container , .likes-container{
+    display: flex;
+    width: 2.5rem;
+    justify-content: space-between;
+}
+
+.likes , .retweets , .fa{
+    color: #657786;
+    cursor: pointer;
+}
+
+.fa-comment-o:hover{
+    color: #1da1f2;
+}
+
+.fa-envelope-o:hover , .fa-retweet:hover{
+    color: #14BD7B;
+}
+
+.fa-heart-o:hover{
+    color: red;
+}
